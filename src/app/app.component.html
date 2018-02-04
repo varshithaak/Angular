@@ -1,0 +1,4 @@
+<h3>Assignment 4</h3>
+<app-game-control (IntervalFired) = "OnIntervalFired($event)"></app-game-control>  
+<app-odd *ngFor = "let oddNum of oddN" [number] = "oddNum" ></app-odd>
+<app-even *ngFor = "let evenNum of evenN" [number] = "evenNum" ></app-even>
